@@ -16,7 +16,7 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
             type: "default",
             options: {
                 userName: "translationsuser",
-                password: "Password@123"
+                password: "{{password-here}}"
             }
         }
     };
